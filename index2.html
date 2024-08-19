@@ -29,9 +29,9 @@
       font-family: 'Montserrat', sans-serif;
     "
   >
-    <container>
-      <div class="wrapper-left">
-        <div class="logo">
+    <container style="display: flex;">
+      <div>
+        <div style="display:block; margin: 0 auto;">
           <a
             style="margin-bottom: 14px"
             href="https://fundacja.hematologiczna.org/"
@@ -39,7 +39,7 @@
             rel="noopener"
           >
             <img
-              style="margin-right: 15px; margin-bottom: 10px; margin-top: 10px"
+              style="margin-top:38px; margin-left: 54px; margin-bottom: 12.97px;"
               width="133"
               height="135"
               src="/images/logo główne.png"
@@ -48,75 +48,83 @@
           </a>
         </div>
         <div class="social">
-          <ul style="list-style: none">
+          <ul style="list-style: none; display: flex; gap: 12px;">
             <li>
               <a href="">
                 <svg width="20" height="20">
-                  <use href="/images/social1.svg"></use>
+                  <use href="/images/icons.svg#icon-social1"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
                 <svg width="20" height="20">
-                  <use href="/images/social2.svg"></use>
+                  <use href="/images/icons.svg#icon-social2"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
                 <svg width="20" height="20">
-                  <use href="/images/social3.svg"></use>
+                  <use href="/images/icons.svg#icon-social3"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
                 <svg width="20" height="20">
-                  <use href="/images/social4.svg"></use>
+                  <use href="/images/icons.svg#icon-social4"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
-                <svg width="20" height="20">
-                  <use href="/images/5.svg"></use>
+                <svg width="20" height="20" fill="#103488">
+                  <use href="/images/icons.svg#icon-social5"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
       </div>
-
-      <div clas="wrapper-right">
-        <div style="">
-          <span style="font-size: 14px; color: #9a0000">
-            <strong>%%FirstName%% %%LastName%%</strong>
-          </span>
-          <span style="font-weight: 600; font-size: 10px; color: #103488">
+<div style="display: flex; flex-direction: column;"
+      <div style="display: flex; flex-direction: column">
+        <ul style="list-style: none; margin-top: 35px">
+          <li style="font-size: 14px; font-weight: 700; color: #9a0000; margin-bottom: 7px; ">
+            <sflex-direction:>%%FirstName%% %%LastName%%</sflex-direction: columntrong>
+          </li>
+          <li style="font-weight: 600; font-size: 10px; color: #103488; margin-bottom:4px;">
             <i>%%Title%%</i>
-          </span>
-          <span style="font-size: 10px; color: #103488">
+          </li>
+          <li style="font-size: 10px; color: #103488;margin-bottom:4px;">
             <u>%%Email%%</u>
-          </span>
-          <span style="font-size: 10px; color: #103488">
+          </li>
+          <li style="font-size: 10px; color: #103488; margin-bottom:12px">
             <u>%%tel%%</u>
-          </span>
-          <span style="font-size: 0.75rem; color: #9a0000; text-align: left">
-            <strong>
+          </li>
+          <li style="font-size: 12px; font-weight: 700;color: #9a0000; margin-bottom:16px;">
               Fundacja Na Rzecz Pomocy <br />Chorym Na Białaczki
-            </strong>
-          </span>
-        </div>
-        <address style="font-size: 10px; color: #103488">
+          </li>
+        </ul>
+      </div>
+        <div style="display: flex; flex-direction: column;">
+        <address style="font-size: 10px; color: #103488; margin-bottom:4px;">
           <a href="https://maps.app.goo.gl/bU1rxP6raaLEc1rW9"
             >93-513 Łódź, ul. Pabianicka 62
           </a>
         </address>
-        <span style="font-size: 10px; color: #103488"> NIP 729-23-25-734 </span>
-        <span style="font-size: 10px; color: #103488"> KRS 0000069531 </span>
-      </div>
-      <img style="" width="43" height="43" src="/images/QR.png" alt="QR" />
+        
+          <span style="font-size: 10px; color: #103488; margin-bottom:4px;">
+         NIP 729-23-25-734 
+          </span>
+          <span style="font-size: 10px; color: #103488;">
+        KRS 0000069531
+          </span>
+          </div>
+    
+            <img style="position: relative; margin-left: 54px;" width="43" height="43" src="/images/QR.png" alt="QR" />
+        </div>
+    </div>
     </container>
   </body>
 </html>
